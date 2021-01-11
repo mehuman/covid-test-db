@@ -4,7 +4,7 @@ services:
     container_name: roach
     hostname: roach
     restart: always
-    image: 'cockroachdb/cockroach:latest'
+    image: 'cockroachdb/cockroach:v20.1.10'
     command: start --insecure
     networks:
       - database
